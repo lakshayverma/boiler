@@ -1,8 +1,8 @@
 
-<h2 align="center">webpack-sass-bootstrap-boilerplate</h2>
-
+<h2 align="center">Webpack-Sass-Bootstrap-Boilerplate</h2>
+<h4>Based on Original Boiler Plate by [Shamin](https://github.com/shamin/webpack-sass-bootstrap-boilerplate)</h4>
 <p align="center">
-  <a href="https://github.com/shaminmeerankutty/webpack-sass-bootstrap-boilerplate/blob/master/LICENSE.md">
+  <a href="https://github.com/lakshayverma/boiler/blob/master/LICENSE.md">
     <img alt="License" src="https://img.shields.io/github/license/mashape/apistatus.svg"></a>
   <a href="https://webpack.js.org">
     <img alt="Webpack" src="https://img.shields.io/badge/webpack-v4.27.0-0072b8.svg"></a>
@@ -24,7 +24,7 @@
   · Webpack
   · Webpack Dev Server
   · jQuery 3.3.1
-  · Popper.js 
+  · Popper.js
   </em>
 </p>
 
@@ -38,13 +38,13 @@ It contains the following features:
 - Sass Compiler
 - Bootstrap v4
 - jQuery 3.3.1
-- Popper.js 
+- Popper.js
 - Webpack Dev Server
-- Generates `gzip` of both css and js files  
+- Generates `gzip` of both css and js files
 
 
 ## Check Out Our Documentation
-If you want to check out our official documentation, just click [here](https://shaminmeerankutty.github.io/webpack-sass-bootstrap-boilerplate/). 
+If you want to check out our official documentation, just click [here](https://github.com/lakshayverma/boiler).
 
 It contains guidance on setting up this starter, as well as feature outlines.
 
@@ -58,7 +58,7 @@ This starter contains the following webpack loaders:
 * HTML Loader for loading HTML files
 * Babel Loader for compiling ES6 code
 
-### Webpack Plugins 
+### Webpack Plugins
 The following webpack plugins are also included:
 
 * Extract Text Plugin for extracting CSS files
@@ -76,36 +76,36 @@ for installing dependencies, starting the appropriate scripts, and building your
 ### Quick Start
 Clone the repo:
 
-    git clone https://github.com/shaminmeerankutty/webpack-sass-bootstrap-boilerplate.git
+    git clone https://github.com/lakshayverma/boiler.git
 
 Navigate to the project folder:
 
-    cd webpack-sass-bootstrap-boilerplate
+    cd boiler
 
 Install all packages and dependencies required for this project:
 
     npm install
-    
+
 Start the development environment (then, navigate to http://localhost:8080):
 
     npm start
- 
-Then, open a browser and navigate to: http://localhost:8080/ 
-    
+
+Then, open a browser and navigate to: http://localhost:8080/
+
 Building files can be done as follows:
 
     npm run build
 
 ### How To Use
-* Add your HTML files by inserting or including them in the `src` directory (By default `index.html` is added to your `src` directory, feel free to edit it and 
+* Add your HTML files by inserting or including them in the `src` directory (By default `index.html` is added to your `src` directory, feel free to edit it and
 experiment with the changes live.)
-    
+
     * Make sure you restart development server after adding new HTML files
 
 * Add images to your `src/assets` folder.
 * Add sass (SCSS) files to `src/scss` folder.
-  * Make sure you import the scss file in `main.scss` 
-    
+  * Make sure you import the scss file in `main.scss`
+
 ```sass
     @import "filename";
 ```

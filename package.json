@@ -8,7 +8,7 @@
     "watch": "webpack --progress --watch  --mode=development",
     "start": "webpack-dev-server --open  --mode=development"
   },
-  "author": "Shamin Meerankutty",
+  "author": "Lakshay Verma",
   "license": "MIT",
   "devDependencies": {
     "@babel/core": "^7.2.0",
@@ -44,10 +44,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/shaminmeerankutty/webpack-sass-bootstrap-boilerplate.git"
+    "url": "git+https://github.com/lakshayverma/boiler.git"
   },
   "bugs": {
-    "url": "https://github.com/shaminmeerankutty/webpack-sass-bootstrap-boilerplate/issues"
+    "url": "https://github.com/lakshayverma/boiler/issues"
   },
-  "homepage": "https://github.com/shaminmeerankutty/webpack-sass-bootstrap-boilerplate#readme"
+  "homepage": "https://github.com/lakshayverma/boiler#readme"
 }
